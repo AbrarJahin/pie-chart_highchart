@@ -11,6 +11,9 @@ $(document).ready(function()
 		title: {
 			text: 'Browser market shares at a specific website, 2010'
 		},
+		credits: {
+			enabled: false
+		},
 		tooltip: {
 			formatter: function() {
 				return '<b>'+ this.point.name +'</b>: '+ this.percentage +' %';
